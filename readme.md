@@ -1,27 +1,20 @@
-# MAKE A BACKUP OF YOUR WII U BEFORE RUNNING THIS MOD.
-# YOU CANNOT SORT MUSIC WITH THIS RANDOMIZER
+# READ THIS BEFORE BEGINNING. THIS RANDOMISER CANNOT BE USED FOR MUSIC.
 
-# NSMB U/U Deluxe/NSLU randomizer
+# This can take up to 4+ hours. Please let it do it's thing. THE WINDOW DOES NOT NEED TO BE OPEN TO RANDOMISE THE FILES.
 
-This mod effectively shuffles the level files of New Super (Mario Bros/Luigi) U/U Deluxe files. It can be used with some other games, although untested.
+This is a Python script to randomise the NSMBU level contents.
+<br>
+## Requirements
+- Python 3
+- `SarcLib` and `libyaz0` (`_main.py` will prompt you to install these)
 
-## How to use?
+### To start: 
+Run either `_main.py` or `run.py`.
 
-### Requirements:
-- Python 3+: `https://python.org`
-- Pip with the following modules installed (you will be prompted to install them): `SarcLib`, `libyaz0`
+# When finished:
+- When you open the emulator, make sure you spam 2 as no UI for the start shows up.
+- TOAD HOUSES ARE A SOFTLOCK, SKIP THEM IS NECESSARY.
+- IT IS RECOMMENDED THAT THIS IS PLAYED USING A 100% SAVE - THE CHALLENGE LEVELS ARE PRESENT AND MAY SOFTLOCK.
 
-### Running the Program:
-1. Clear out the CopyOfFiles folder. <br>
-2. Copy all of the `course_res_pack` folder into the CopyOfFiles folder (use UWizard to extract the wud file for your rom) <br>
-3. Run the `_main.py` script. <br><br>
-
-FINISING THIS CAN TAKE UP TO 3+ HOURS. PLEASE BE PATIENT. 
-
-### Recommendations for running the mod: 
-- Use a 5-Star save. There will be points where you will be softlocked.
-- GETTING ANY ITEMS FROM A ITEM TOAD HOUSE CRASHES THE GAME. Make sure to pick a bowser to get nothing.
-- Some levels will not open. This is not on the randomiser, but probably because the level is the title screen.
-<br> <br>
-IF YOU RUN INTO ANY ISSUES WHEN RUNNING THE MOD, REINSTALL THE GAME'S `META.XML` FILE.
- 
+## Building this:
+You do not need to build it, it is prebuilt. Running `run.py` runs the built version.
