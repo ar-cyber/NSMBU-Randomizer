@@ -21,12 +21,11 @@ set /A "rand1=(n*%random%)/32768+1"
 set /A "rand2=(n*%random%)/32768+1"
 
 if "%rand1%" == "%rand2%" goto next
-echo %rand1%
-echo %rand2%
+
 ::chose file from the first folder
-move "%~dp0CopyOfFiles\!file[%rand1%]!" "%~dp0CopyOfFiles\ThInGy"
-move "%~dp0CopyOfFiles\!file[%rand2%]!" "%~dp0CopyOfFiles\!file[%rand1%]!"
-move "%~dp0CopyOfFiles\ThInGy" "%~dp0CopyOfFiles\!file[%rand2%]!"
+move "%~dp0CopyOfFiles\!file[%rand1%]!" "%~dp0CopyOfFiles\ThInGy" > nul
+move "%~dp0CopyOfFiles\!file[%rand2%]!" "%~dp0CopyOfFiles\!file[%rand1%]!" > nul
+move "%~dp0CopyOfFiles\ThInGy" "%~dp0CopyOfFiles\!file[%rand2%]!" > nul
 rem pause
 :next
 

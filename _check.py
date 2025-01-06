@@ -57,7 +57,8 @@ except ImportError:
     else:
         sys.exit(1)
 
-
+def randomize():
+    os.system("cmd /c SortingFile.bat")
 
 def extract(file):
     """
@@ -195,18 +196,8 @@ def pack(root, level, outname = False): # endianness,
     with open(outname, "wb+") as output:
         output.write(outData)
 
-os.system("cmd /c SortingFile.bat")
+
 
 os.chdir("CopyOfFiles")
-for file in os.listdir():
-    extract(file)
-    name = file.replace(".szs", "")
-    os.remove(file)
-    os.chdir(name)
-    filtered_files = [name for name in os.listdir() if re.findall(r'.*-*$', name)]
-    # print(filtered_files)
-    os.rename(filtered_files[0], name)
-    os.chdir("..")
-    pack(root=name, level=1)
-    os.system(f"del /F /Q {name}")
-    print(f"Compressed {name}")
+
+extract(input("Type the file name: "))
