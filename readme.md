@@ -16,7 +16,7 @@ This mod effectively shuffles the level files of New Super (Mario Bros/Luigi) U/
 2. Copy all of the `course_res_pack` folder into the CopyOfFiles folder (use UWizard to extract the wud file for your rom) <br>
 3. Run the `_main.py` script. <br><br>
 
-FINISING THIS CAN TAKE UP TO 3+ HOURS. PLEASE BE PATIENT. 
+FINISING THIS CAN TAKE UP TO 2+ HOURS. PLEASE BE PATIENT. 
 
 ### Recommendations for running the mod: 
 - Use a 5-Star save. There will be points where you will be softlocked.
