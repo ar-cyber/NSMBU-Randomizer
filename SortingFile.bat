@@ -22,6 +22,8 @@ set /A "rand2=(n*%random%)/32768+1"
 
 if "%rand1%" == "%rand2%" goto next
 
+
+
 ::chose file from the first folder
 move "%~dp0CopyOfFiles\!file[%rand1%]!" "%~dp0CopyOfFiles\ThInGy" > nul
 move "%~dp0CopyOfFiles\!file[%rand2%]!" "%~dp0CopyOfFiles\!file[%rand1%]!" > nul

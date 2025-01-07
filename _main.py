@@ -11,6 +11,7 @@ import os
 import sys
 import time
 import re
+import glob
 try:
     import SarcLib
 
@@ -181,6 +182,30 @@ def pack(root, level, outname = False): # endianness,
     with open(outname, "wb+") as output:
         output.write(outData)
 
+os.chdir("CopyOfFiles")
+
+# Remove Softlocking Files including Title Screen from randomization
+try:
+    os.remove("1-39.szs")
+    os.remove("1-46.szs")
+    for f in glob.glob("12-*.szs"):
+        os.remove(f)
+    for f in glob.glob("13-*.szs"):
+        os.remove(f)
+    for f in glob.glob("14-*.szs"):
+        os.remove(f)
+    for f in glob.glob("15-*.szs"):
+        os.remove(f)
+    for f in glob.glob("16-*.szs"):
+        os.remove(f)
+    for f in glob.glob("17-*.szs"):
+        os.remove(f)
+    for f in glob.glob("18-*.szs"):
+        os.remove(f)
+except FileNotFoundError:
+    print("Missing some files, maybe recopy them?")
+    exit()
+os.chdir("..")
 os.system("cmd /c SortingFile.bat")
 
 os.chdir("CopyOfFiles")
