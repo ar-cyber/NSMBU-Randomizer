@@ -4,6 +4,8 @@
 # NSMB U/U Deluxe/NSLU randomizer
 
 This mod effectively shuffles the level files of New Super (Mario Bros/Luigi) U/U Deluxe files. It can be used with some other games, although untested.
+<br><br>
+Thanks to <a href="https://github.com/Arulo165">Arulo165</a>, there is now an item randomizer present in a subdirectory. Deploy that like you would deploy any other mod for NSMBU/NSLU (the file is not regionlocked; it can be played with any region, although tested on EU).
 
 ## How to use?
 
