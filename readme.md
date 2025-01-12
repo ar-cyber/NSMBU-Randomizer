@@ -3,7 +3,7 @@
 
 # NSMB U/U Deluxe/NSLU randomizer
 
-This mod effectively shuffles the level files of New Super (Mario Bros/Luigi) U/U Deluxe files. It can be used with some other games, although untested.
+This mod effectively shuffles the level files of New Super (Mario Bros/Luigi) U. It can be used with some other games, although untested.
 <br><br>
 Thanks to <a href="https://github.com/Arulo165">Arulo165</a>, there is now an item randomizer present in a subdirectory. Deploy that like you would deploy any other mod for NSMBU/NSLU. Currently only supports EU roms.
 
@@ -26,6 +26,7 @@ FINISING THIS CAN TAKE UP TO 2+ HOURS. PLEASE BE PATIENT.
 - As of 1.1, lots of issues regarding softlocks have been patched. Do not go the back way into Roy's castle, however.
 - Not all levels have secret exits - you may not be able to get to secret levels.
 - You CAN beat the game (kinda).
+- Unable to test NSMBU Deluxe. Playtesters needed.
 <br><br>
 IF YOU RUN INTO ANY ISSUES WHEN RUNNING THE MOD, REINSTALL THE GAME'S `META.XML` FILE.
  
