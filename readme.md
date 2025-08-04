@@ -1,6 +1,3 @@
-# MAKE A BACKUP OF YOUR WII U BEFORE RUNNING THIS MOD.
-# YOU CANNOT SORT MUSIC WITH THIS RANDOMIZER
-
 # NSMB U/U Deluxe/NSLU randomizer
 
 This mod effectively shuffles the level files of New Super (Mario Bros/Luigi) U. It can be used with some other games, although untested.
@@ -14,7 +11,10 @@ Thanks to <a href="https://github.com/Arulo165">Arulo165</a>, there is now an it
 - Pip with the following modules installed (you will be prompted to install them): `SarcLib`, `libyaz0`
 
 ### Running the Program:
-1. Clear out the CopyOfFiles folder. <br>
+> [!WARNING]
+> Please make sure that you shuffle your files using <ins>THIS</ins> program and not another shuffler such as NinTyler's randomiser. This is because this modifies the metadata of the file to allow it to load properly
+
+1. Clear out/create the CopyOfFiles folder. <br>
 2. Copy all of the contents in `course_res_pack` folder into the CopyOfFiles folder (use UWizard to extract the wud file for your rom) <br>
 3. Run the `_main.py` script. <br>
 4. Copy everything from `CopyOfFiles` to your `course_res_pack` folder.<br>
